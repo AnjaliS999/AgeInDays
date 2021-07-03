@@ -1,0 +1,40 @@
+/* to shift content to mid of the page 
+
+we use FLEXBOX
+it allows to put things in an organised manner*
+
+to do this we are going to make a container class using div in html inside body tag
+*/
+.container-1{
+ border: 3px solid black;
+ margin: auto;
+ width: 75%;
+ text-align: center;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    border : 1px solid black;
+    padding: 22px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse// to switch the buttons; */
+    /* flex-direction: row-reverse; */
+}
+
+/*
+    this will pish the button to the end, flex-start will place buttons in the starting point */
+
+/* padding between 2 buttons */
+
+.flex-box-container-1 div{  
+    display: flex;
+    padding: 10px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+/* while clicking on click it will essentially add how many days old you are 
+we want that it will show whats your age in days ? and we will reset it 
+aork in html */
